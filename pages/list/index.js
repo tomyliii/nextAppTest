@@ -7,7 +7,7 @@ export default function index(props) {
   return (
     <>
       <Head>
-        <title>Liste d'utilisateurs</title>
+        <title>Liste d utilisateurs</title>
       </Head>
       <main className={styles.container}>
         <div>
