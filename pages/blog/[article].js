@@ -3,7 +3,7 @@ import Head from "next/head";
 import axios from "axios";
 import { useRouter } from "next/router";
 import styles from "../../styles/Article.module.css";
-export default function article(props) {
+export default function Article(props) {
   const router = useRouter();
   const article = props.article;
   return (

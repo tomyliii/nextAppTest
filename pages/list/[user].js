@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 import Head from "next/head";
 import axios from "axios";
 import styles from "../../styles/User.module.css";
-export default function user(props) {
+export default function User(props) {
   const user = props.user;
   const router = useRouter();
   //   console.log(router);
