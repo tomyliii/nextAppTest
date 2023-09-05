@@ -6,26 +6,25 @@
   gap: 20px;
 }
 
-.container h1,
-.container > div:first-child > p {
+.container h1 {
   width: 100%;
+  text-align: center;
 }
 
 .container > div:last-child {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 10px;
+}
+.container > div:last-child p {
+  margin: 5px;
 }
 .container > div:last-child > div {
   display: flex;
-  width: calc((100% - 10px) / 2);
-  flex-direction: column;
-  justify-content: space-around;
+  width: 80%;
+  align-items: center;
+  justify-content: space-between;
   border: 1px solid rgb(215, 215, 215);
   padding: 10px;
-  height: 150px;
-}
-
-.container > div:last-child > div > p,
-.container > div:last-child > div > h2 {
-  margin: 0;
 }

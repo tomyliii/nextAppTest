@@ -5,19 +5,21 @@
   flex-direction: column;
   gap: 20px;
 }
-
 .container h1,
 .container > div:first-child > p {
   width: 100%;
+  text-align: center;
 }
 
 .container > div:last-child {
   display: flex;
+  flex-wrap: wrap;
   gap: 10px;
 }
+
 .container > div:last-child > div {
   display: flex;
-  width: calc((100% - 10px) / 2);
+  width: calc((100% - 100px) / 3);
   flex-direction: column;
   justify-content: space-around;
   border: 1px solid rgb(215, 215, 215);
